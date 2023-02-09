@@ -115,9 +115,10 @@ button{
     
 
     font-style: normal;
+    height: 40px;
     font-weight: 800;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 4px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -131,8 +132,35 @@ button:hover{
     border: 1px solid rgba(400, 100, 50, .80);
 }
 
-/*
-button::after{
-    background: #A2BD49;
+@media (max-width:900px) {
+    .Title{
+        margin-top: 10%;
+        font-size: 5vw;
+    }
+    .Tracker{
+        font-size: 5vw;
+    }
+    #Goal,#Counter{
+        font-size: 20vw;
+    }
+    .Date,.Note{
+        position:relative;
+        margin-top: 2%;
+        font-size: 3vw;
+    }
+    .Date input{
+        width: 50%;
+        font-size: 3vw;
+    }
+    #inputNote{
+        font-size: 3vw;
+        width: 50%;
+    }
+    button{
+        font-size: 3vw;
+        padding: auto;
+        height: 6vw;
+        margin-top: 5%; 
+        
+    }
 }
-*/
