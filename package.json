@@ -1,0 +1,16 @@
+{
+  "name": "workout-tracker-v1",
+  "version": "1.0.0",
+  "description": "Workout Tracker. Tracks daily workout dates and notes",
+  "main": "script.js",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "json-server --watch data.json --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aira Aloveros",
+  "license": "ISC"
+}

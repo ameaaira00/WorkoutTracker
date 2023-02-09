@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Workout Tracker</title>
+</head>
+<body onload="onLoad()">
+    <div class="Title">Workout Tracker</div>
+    <div class="Tracker">
+        <a id="Counter">0</a><a id="of">of</a><a id="Goal"> 91</a>
+    </div>
+    <div class="Date">
+        <a>Date:</a><input type="date" id="inputDate">
+    </div>
+    <div class="Note"> 
+        <a>Note:</a> <textarea id="inputNote" rows="10" cols="50"></textarea>
+    </div>
+    
+        
+    <button id="Button" onclick="logWorkout()">Log Workout</button>
+
+</body>
+</html>

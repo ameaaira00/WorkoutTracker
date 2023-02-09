@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #FFFFFF;
+}
+
+.Title{
+    margin-top: 5%;
+    justify-content: center;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* Attempt to do inset shadow*/
+    color: rgba(400, 100, 50, .80);
+    text-shadow: 1px 2px 3px #fff, 0 0 0 #000;
+}
+
+.Tracker{
+    margin:auto;
+    justify-content: center;
+    font-style: normal;   
+    text-align: justify;
+    font-style: normal;
+    
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+
+    /* Attempt to do inset shadow*/
+    color: rgba(400, 100, 50, .80);
+    text-shadow: 1px 2px 3px #fff, 0 0 0 #000;
+}
+
+#Goal, #Counter{
+    margin: 2% 5% 2% 5%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 242px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.Date{
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.Date input{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    font-size: 20px;
+    width: 25%;
+    margin-left: 5%;
+    border-radius:10px;
+    padding: 5px 10px;
+}
+
+.Note{
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.Note a{
+    margin-top: -200px;
+}
+
+#inputNote {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    font-size: 20px;
+    width: 25%;
+    margin-left: 5%;
+    border-radius:10px;
+    padding: 5px 10px;
+}
+
+button{
+    justify-content: center;
+    background: rgba(400, 100, 50, .80);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    padding: 4px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    border: 2px;
+    
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #FFFFFF;
+    color: rgba(400, 100, 50, .80);
+    border: 1px solid rgba(400, 100, 50, .80);
+}
+
+/*
+button::after{
+    background: #A2BD49;
+}
+*/
